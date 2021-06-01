@@ -8,7 +8,7 @@
 
 import os
 
-with open('2-4-2-result.txt', 'w') as w:
+with open('2_4_files_2_result.txt', 'w') as w:
     for current_dir, dirs, files in os.walk('main'):
         for file in files:
             if file.endswith('.py'):
